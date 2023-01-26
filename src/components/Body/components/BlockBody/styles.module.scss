@@ -1,0 +1,25 @@
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  padding-left: 260px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: #141414;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 123px;
+
+  & > div:not(:first-child) {
+    margin-top: 100px;
+  }
+}
