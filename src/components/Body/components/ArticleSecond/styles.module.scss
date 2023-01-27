@@ -4,3 +4,11 @@
   gap: 128px;
   padding-left: 260px;
 }
+
+@media screen and (max-width: 375px) {
+  .article {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+  }
+}

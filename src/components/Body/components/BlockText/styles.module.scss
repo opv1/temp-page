@@ -29,3 +29,20 @@
   line-height: 130%;
   color: #141414;
 }
+
+@media screen and (max-width: 375px) {
+  .block {
+    padding: 0 20px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 130%;
+  }
+}

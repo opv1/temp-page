@@ -10,3 +10,13 @@
     margin-bottom: 160px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .body {
+    margin-top: 72px;
+
+    & > div {
+      margin-bottom: 70px;
+    }
+  }
+}

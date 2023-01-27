@@ -11,6 +11,8 @@ import slide6 from './assets/slides/slide6.png'
 import slide7 from './assets/slides/slide7.png'
 import slide8 from './assets/slides/slide8.png'
 
+export const MOBILE_BREAKPOINT = 375
+
 export const data = [
   {
     id: 11,

@@ -2,7 +2,7 @@ import React from 'react'
 import { BlockBody } from './components/BlockBody'
 import { ArticleFirst } from './components/ArticleFirst'
 import { ArticleSecond } from './components/ArticleSecond'
-import { SliderDesktop } from './components/SliderDesktop'
+import { Slider } from '../Slider'
 import { data } from '../../const'
 import styles from './styles.module.scss'
 
@@ -20,7 +20,7 @@ export const Body = () => {
         } else {
           return (
             <BlockBody key={element.id} title={element.title}>
-              <SliderDesktop slides={element.slides} />
+              <Slider slides={element.slides} />
             </BlockBody>
           )
         }
