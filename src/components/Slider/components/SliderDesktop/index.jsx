@@ -104,7 +104,7 @@ export const SliderDesktop = (props) => {
   useEffect(() => {
     const options = {
       root: null,
-      rootMargin: '0px',
+      rootMargin: '-300px 0px -300px 0px',
       threshold: 1.0,
     }
 
@@ -137,6 +137,7 @@ export const SliderDesktop = (props) => {
         className={styles.swiper}
         slidesPerView={'auto'}
         spaceBetween={40}
+        speed={900}
         onSwiper={(swiper) => {
           setSwiper(swiper)
         }}
